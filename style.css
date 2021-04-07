@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(94, 61, 107);
+}
+
+.playerSelections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.playerChoice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 -25px 0;
+}
+
+.playerChoice > button {
+  background-color: rgb(139, 141, 87);
+  margin: 0 0 -20px 0;
+}
+
+.playerChoice > button > img {
+  width: 4rem;
+  height: 4rem;
+  pointer-events: none;
+}
+
+h3 {
+  font-family: "Londrina Solid", cursive;
+  color: white;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+  margin: -20px 0 0 0;
+}
+
+.scoreContainer {
+  display: flex;
+}

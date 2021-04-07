@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <section class="scores">
+      <div class="scoreContainer">
+        <h3>Your Score:</h3>
+        <h3 class="playerScore"></h3>
+      </div>
+      <div class="scoreContainer">
+        <h3>Computer's Score:</h3>
+        <h3 class="computerScore"></h3>
+      </div>
+    </section>
+
+    <section class="playerSelections">
+      <div class="playerChoice">
+        <button class="rock">
+          <img src="/assets/images/rock.png" alt="rock" />
+        </button>
+        <h3>ROCK</h3>
+      </div>
+
+      <div class="playerChoice">
+        <button class="paper">
+          <img src="/assets/images/paper.png" alt="paper" />
+        </button>
+        <h3>PAPER</h3>
+      </div>
+
+      <div class="playerChoice">
+        <button class="scissors">
+          <img src="/assets/images/scissors.png" alt="scissors" />
+        </button>
+        <h3>SCISSORS</h3>
+      </div>
+    </section>
+    <section class="message"></section>
     <script src="script.js"></script>
   </body>
 </html>
