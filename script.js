@@ -74,7 +74,7 @@ function game(event) {
     let computerSelection = computerPlay();
 
     //showing message
-    let message = document.createElement("h3");
+    let message = document.createElement("h1");
     message.textContent = singleRound(playerSelection, computerSelection);
     const messageDiv = document.querySelector(".message");
     messageDiv.append("");
